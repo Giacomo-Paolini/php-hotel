@@ -84,7 +84,7 @@
                         <?php } ?>
                     </tr>
                     <tr>
-                        <th scope="row">Distance</th>
+                        <th scope="row">Distance to center</th>
                         <?php foreach ($hotels as $hotel) { ?>
                             <td scope=col><?php echo $hotel["distance_to_center"] . " km" ?></td>
                         <?php } ?>
